@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="3M-SD_CARD">
+<wire x1="-13.25" y1="-29" x2="-13.25" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-13.25" y1="1.45" x2="14.8" y2="1.45" width="0.127" layer="21"/>
+<wire x1="14.8" y1="1.45" x2="14.8" y2="-29" width="0.127" layer="21"/>
+<wire x1="-6" y1="-29" x2="6" y2="-29" width="0.127" layer="21" curve="-98.79804"/>
+<wire x1="-13.25" y1="-29" x2="-6" y2="-29" width="0.127" layer="21"/>
+<wire x1="15" y1="-29" x2="6" y2="-29" width="0.127" layer="21"/>
+<smd name="3" x="2" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="-0.5" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="-3" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="4.5" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="-5.5" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="7" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="9" x="9.5" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="7" x="-7.93" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="-9.63" y="2.8" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="CDI" x="-10.93" y="2.8" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="WP" x="-12.13" y="2.8" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="GND1" x="-14.28" y="-24.95" dx="2" dy="3" layer="1"/>
+<smd name="GND2" x="15.82" y="-24.95" dx="2" dy="3" layer="1"/>
+<text x="-13.97" y="-8.89" size="1.016" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<hole x="9.5" y="-0.05" drill="1.6002"/>
+<hole x="-11.5" y="-0.05" drill="1.2"/>
+</package>
+<package name="FCI_SD_CARD">
+<wire x1="-14" y1="-0.6" x2="14.9" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="14.9" y1="-0.6" x2="14.9" y2="28.4" width="0.127" layer="21"/>
+<wire x1="14.9" y1="28.4" x2="-14" y2="28.4" width="0.127" layer="21"/>
+<wire x1="-14" y1="28.4" x2="-14" y2="-0.6" width="0.127" layer="21"/>
+<smd name="GND1" x="-13.6" y="6.8" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND2" x="14.4" y="8" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="9" x="9.375" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="6.875" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.075" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="CD" x="2.725" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="4.375" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="-0.625" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="-3.125" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="-5.625" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="7" x="-8.05" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="-9.75" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="WP" x="-13.1" y="29" dx="1.5" dy="1" layer="1" rot="R90"/>
+<text x="-15" y="10" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<hole x="12.1" y="4.7" drill="1.5"/>
+<hole x="-12.1" y="4.7" drill="1.5"/>
+</package>
+<package name="4UCON_19850_SD_CARD">
+<hole x="3.05" y="0" drill="1"/>
+<hole x="-4.93" y="0" drill="1"/>
+<smd name="G1" x="-7.75" y="0.4" dx="1.2" dy="2.2" layer="1"/>
+<smd name="G2" x="7.75" y="0.4" dx="1.2" dy="2.2" layer="1"/>
+<smd name="G4" x="6.85" y="10" dx="1.6" dy="1.4" layer="1"/>
+<smd name="G3" x="-7.8" y="10" dx="1.2" dy="1.4" layer="1"/>
+<smd name="P1" x="2.25" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P2" x="1.15" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P3" x="0.05" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P4" x="-1.05" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P5" x="-2.15" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P6" x="-3.25" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P7" x="-4.35" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="P8" x="-5.45" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<smd name="CD" x="-6.55" y="10.5" dx="0.7" dy="1.6" layer="1"/>
+<wire x1="-7.35" y1="-4" x2="-7.35" y2="-1" width="0.127" layer="21"/>
+<wire x1="-7.35" y1="-4" x2="7.35" y2="-4" width="0.127" layer="21"/>
+<wire x1="7.35" y1="-4" x2="7.35" y2="-1" width="0.127" layer="21"/>
+<wire x1="7.35" y1="2" x2="7.35" y2="9" width="0.127" layer="21"/>
+<wire x1="-7.35" y1="2" x2="-7.35" y2="9" width="0.127" layer="21"/>
+<wire x1="5.8" y1="10.5" x2="3" y2="10.5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SD_CARD">
+<wire x1="-30.48" y1="17.78" x2="27.94" y2="17.78" width="0.254" layer="94"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-20.32" x2="-30.48" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-20.32" x2="11.43" y2="-20.32" width="0.254" layer="94" curve="-126.869898"/>
+<wire x1="-30.48" y1="-20.32" x2="-13.97" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="11.43" y2="-20.32" width="0.254" layer="94"/>
+<text x="-12.7" y="7.62" size="1.016" layer="94" font="vector">&gt;NAME</text>
+<pin name="9" x="25.4" y="22.86" length="middle" rot="R270"/>
+<pin name="1" x="20.32" y="22.86" length="middle" rot="R270"/>
+<pin name="2" x="15.24" y="22.86" length="middle" rot="R270"/>
+<pin name="3" x="10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="4" x="5.08" y="22.86" length="middle" rot="R270"/>
+<pin name="5" x="0" y="22.86" length="middle" rot="R270"/>
+<pin name="6" x="-5.08" y="22.86" length="middle" rot="R270"/>
+<pin name="7" x="-10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="8" x="-15.24" y="22.86" length="middle" rot="R270"/>
+<pin name="GND1" x="-35.56" y="-15.24" length="middle"/>
+<pin name="GND2" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="CDI" x="-20.32" y="22.86" length="middle" rot="R270"/>
+<pin name="WP" x="-25.4" y="22.86" length="middle" rot="R270"/>
+</symbol>
+<symbol name="MICRO_SD_CARD">
+<wire x1="-30.48" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-38.1" x2="-30.48" y2="0" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-38.1" x2="11.43" y2="-38.1" width="0.254" layer="94" curve="-126.869898"/>
+<wire x1="-30.48" y1="-38.1" x2="-13.97" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-38.1" x2="11.43" y2="-38.1" width="0.254" layer="94"/>
+<text x="-12.7" y="-10.16" size="1.778" layer="94" font="vector">&gt;NAME</text>
+<pin name="1" x="20.32" y="5.08" length="middle" rot="R270"/>
+<pin name="2" x="15.24" y="5.08" length="middle" rot="R270"/>
+<pin name="3" x="10.16" y="5.08" length="middle" rot="R270"/>
+<pin name="4" x="5.08" y="5.08" length="middle" rot="R270"/>
+<pin name="5" x="0" y="5.08" length="middle" rot="R270"/>
+<pin name="6" x="-5.08" y="5.08" length="middle" rot="R270"/>
+<pin name="7" x="-10.16" y="5.08" length="middle" rot="R270"/>
+<pin name="8" x="-15.24" y="5.08" length="middle" rot="R270"/>
+<pin name="GND1" x="-35.56" y="-33.02" length="middle"/>
+<pin name="GND2" x="33.02" y="-33.02" length="middle" rot="R180"/>
+<pin name="CD" x="-20.32" y="5.08" length="middle" rot="R270"/>
+<pin name="GND3" x="-35.56" y="-7.62" length="middle"/>
+<pin name="GND4" x="33.02" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CARD_CONNECTOR_SD">
+<gates>
+<gate name="G$1" symbol="SD_CARD" x="10.16" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="3M-SD_CARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="CDI" pad="CDI"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FCI" package="FCI_SD_CARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="CDI" pad="CD"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CARD_CONNECTOR_MICRO_SD" prefix="X">
+<gates>
+<gate name="G$1" symbol="MICRO_SD_CARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="X" package="4UCON_19850_SD_CARD">
+<connects>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$1" pin="3" pad="P3"/>
+<connect gate="G$1" pin="4" pad="P4"/>
+<connect gate="G$1" pin="5" pad="P5"/>
+<connect gate="G$1" pin="6" pad="P6"/>
+<connect gate="G$1" pin="7" pad="P7"/>
+<connect gate="G$1" pin="8" pad="P8"/>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="GND1" pad="G1"/>
+<connect gate="G$1" pin="GND2" pad="G2"/>
+<connect gate="G$1" pin="GND3" pad="G3"/>
+<connect gate="G$1" pin="GND4" pad="G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
