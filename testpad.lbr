@@ -570,7 +570,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <symbol name="5015KCT-ND">
 <circle x="1.27" y="0" radius="3.81" width="0.254" layer="94"/>
 <text x="-5.08" y="5.08" size="2.54" layer="94">&gt;NAME</text>
-<pin name="TP" x="-7.62" y="0" length="middle"/>
+<pin name="TP" x="-7.62" y="0" visible="off" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2245,12 +2245,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 <deviceset name="5015KCT-ND" prefix="TP">
 <gates>
-<gate name="G$1" symbol="5015KCT-ND" x="0" y="0"/>
+<gate name="TP1" symbol="5015KCT-ND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="5015KCT-ND">
 <connects>
-<connect gate="G$1" pin="TP" pad="P$1"/>
+<connect gate="TP1" pin="TP" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
