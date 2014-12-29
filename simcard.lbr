@@ -130,12 +130,12 @@
 <smd name="6" x="17.9" y="4.75" dx="2.2" dy="2.8" layer="1"/>
 </package>
 <package name="MOLEX_91228-3001">
-<smd name="2" x="2.54" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
-<smd name="1" x="5.08" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
-<smd name="3" x="0" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
-<smd name="6" x="5.08" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
-<smd name="5" x="2.54" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
-<smd name="4" x="0" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="5" x="2.54" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="4" x="5.08" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="6" x="0" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="5.08" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
+<smd name="1" x="0" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
 <smd name="7" x="12.4" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
 <smd name="8" x="12.4" y="23.5" dx="2.3" dy="1.4" layer="1" rot="R90"/>
 <hole x="-7.4" y="8.55" drill="2.3"/>
